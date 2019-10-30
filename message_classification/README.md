@@ -6,6 +6,8 @@ Unstructured data in the form of text is everywhere: emails, chats, web pages, s
 Businesses are turning to text classification for structuring text in a fast and cost-efficient way to enhance decision-making and automate processes. But message classification is also a perfect tool for surveillance initiatives like [PRISM](https://de.wikipedia.org/wiki/PRISM) or [CMS](https://en.wikipedia.org/wiki/Central_Monitoring_System).
 This is a short example of message classification/sentiment analysis based on social media messages.
 
+Sentiment analysis is predestined to monitor voter opinions during political events, a famous example of this is [Brexit](https://brexit.foraction.gr/).
+
 # Project Structure
 The project is divided into two parts:
 1. Preprocessing Pipeline
@@ -13,8 +15,6 @@ Load and clean the messages dataset and store the resulting records into a .csv 
 2. ML Pipeline
 The machine learning pipeline is concerned with training the model and evaluating it. It includes a text processing part because the algorithm must be able to deal with text input.
 
-
-Sentiment analysis is predestined to monitor voter opinions during political events, a famous example of this is [Brexit](https://brexit.foraction.gr/).
 
 # Problem Formulation
 Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a multi-class text classification problem. 
