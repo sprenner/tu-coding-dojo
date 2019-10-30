@@ -5,7 +5,7 @@ Welcome to the Readme of our ML Dojo. Please make sure you have installed your e
 ## Agenda
 - Setup Check
 - Welcome & Intro to Accenture AI
-- [Message Classification Intro](https://github.com/sprenner/ml-coding-dojo/tree/master/text_classification/message_classification) 
+- [Message Classification Intro](https://github.com/sprenner/tu-coding-dojo/tree/master/message_classification) 
 - Activists vs. Government Coding Dojo
 - Q&A with AI Austria Lead
 - getTUgether
