@@ -1,6 +1,6 @@
 # Social Media Message Classification
 
-Text classification is the process of assigning tags or categories to text according to its content. It’s one of the fundamental tasks in Natural Language Processing (NLP) with broad applications such as sentiment analysis, topic labeling, spam detection, and intent detection.
+Text classification is the process of assigning tags or categories to text according to its content. It’s one of the fundamental tasks in **Natural Language Processing (NLP)** with broad applications such as sentiment analysis, topic labeling, spam detection, and intent detection.
 
 Unstructured data in the form of text is everywhere: emails, chats, web pages, social media, support tickets, survey responses, and more. Text can be an extremely rich source of information, but extracting insights from it can be hard and time-consuming due to its unstructured nature. 
 Businesses are turning to text classification for structuring text in a fast and cost-efficient way to enhance decision-making and automate processes. But message classification is also a perfect tool for surveillance initiatives like [PRISM](https://de.wikipedia.org/wiki/PRISM) or [CMS](https://en.wikipedia.org/wiki/Central_Monitoring_System).
@@ -17,11 +17,11 @@ The machine learning pipeline is concerned with training the model and evaluatin
 
 
 # Problem Formulation
-Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a multi-class text classification problem. 
+Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a **multi-class text classification problem**. 
 
 # Data Exploration and Preprocessing
 Before diving into training machine learning models, you should look at the available data first.
-* Open the jupyter notebook preprocessing.ipynb.
+* Open the jupyter notebook preprocessing.ipynb (You may of course also work with IDEs like PyCharm).
 * Use pandas to load the prepared dataset into a dataframe, then explore the available columns and inspect a couple of examples.
 * Use matplotlib or seaborn to plot the  the number of records in each class.
 * Think about possible data cleaning steps to reduce the number of artifacts or inherent bias.
