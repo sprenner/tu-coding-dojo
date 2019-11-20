@@ -31,8 +31,8 @@ Before diving into training machine learning models, you should look at the avai
 # Text Representation and ML Pipeline
 Open the second jupyter notebook training_pipeline.ipynb to work with the preprocessed dataset.
 
-* Use stopwords to remove less-meaningful words (we have prepared a list of German stop words for you). The logic of removing stop words has to do with the fact that these words don't carry a lot of meaning, and they appear a lot in most text
-* Split the dataset into a train set and a test set (e.g.: 80/20, 90/10 ratio)
+* Use stopwords to remove less-meaningful words (we have prepared a list of German stop words for you). The logic of removing stop words has to do with the fact that these words don't carry a lot of meaning and they appear a lot in most text.
+* Split the dataset into a train set and a test set (e.g.: 80/20, 90/10 ratio).
 * The classifiers and learning algorithms can not directly process the text documents in their original form, as most of them expect numerical feature vectors with a fixed size rather than the raw text documents with variable length. Therefore, during the preprocessing step, the texts are converted to a more manageable representation.
 * One common approach for extracting features from text is to use the bag of words model: a model where for each document, the presence (and often the frequency) of words is taken into consideration, but the order in which they occur is ignored.
 
